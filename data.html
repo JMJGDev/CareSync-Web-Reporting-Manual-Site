@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Data Gathering</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <div class="logo">
+        <span>CareSync</span>
+    </div>
+
+    <div class="nav-right">
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="data.html" class="active">Data Gathering</a>
+            <a href="results.html">Results</a>
+            <a href="moreinfo.html">More Info</a>
+        </nav>
+    </div>
+
+</header>
+
+<br>
+
+<header class="page-header gradient-blue">
+    <h1>Data Gathering</h1>
+    <p>Survey respondents, intruments used, and documentation</p>
+</header>
+
+<main class="content-container">
+
+    <section class="summary-grid">
+
+        <div class="card card-lg">
+            <div class="icon-box blue-icon">
+                <i class="bi bi-file-earmark-text"></i>
+            </div>
+
+            <h3>Consent Form Summary</h3>
+            <br>
+            <p class="section-intro">
+                All participants were informed of the study's purpose, procedures, and their 
+                rights as respondents. Written informed consent was obtained prior to data collection.
+                Participants were assured of confidentiality and anonymity throughout the study.
+            </p>
+<button class="view-btn" onclick="openConsent()">View Consent Form</button>
+</div>
+</div>
+
+<div id="consentModal" class="modal">
+
+    <div class="modal-box">
+
+        <span class="close-btn" onclick="closeConsent()">&times;</span>
+
+        <iframe src="files/consent-form.pdf"></iframe>
+
+    </div>
+
+</div>
+
+</div>
+
+</div>
+        </div>
+
+        <div class="card card-lg">
+
+    <div class="icon-box purple-icon">
+        <i class="bi bi-people-fill"></i>
+    </div>
+
+    <h3>Respondents Profile</h3>
+
+    <p class="section-intro">
+        <br>
+        The study involved <strong> 20 third-year Bachelor of Science in Biology (BSBIO)</strong> students as respondents. 
+        The survey was conducted online through Google Forms to evaluate the usability of the prototype.
+    </p>
+
+</div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="methods-section">
+
+    <p class="section-tag">SURVEY METHODOLOGY</p>
+    <h2>Inruments Used</h2>
+
+    <p class="section-intro">
+        Two evaluation methods were used to assess the usability and effectiveness of the CareSync prototype.
+    </p>
+<br>
+    <div class="methods-grid two-methods">
+
+        <div class="card method-card">
+            <div class="icon-circle">
+                <i class="bi bi-journal-check"></i>
+            </div>
+
+            <h4>Heuristic Evaluation Workbook</h4>
+
+            <p>
+                Each group member conducted an individual heuristic evaluation using the workbook to identify usability issues based on standard design principles.
+            </p>
+        </div>
+
+        <div class="card method-card">
+            <div class="icon-circle green">
+                <i class="bi bi-ui-checks-grid"></i>
+            </div>
+
+            <h4>Usability Testing Survey</h4>
+
+            <p>
+                Respondents answered an online usability survey to evaluate the prototype’s ease of use, functionality, and overall user experience.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+<section class="methods-section">
+
+        <p class="section-tag">PHOTO DOCUMENTATION</p>
+        <h2>Documentation Gallery</h2>
+        <br>
+    <div class="photo-grid">
+        <div class="photo-item">
+            <img src="images/Survey 1.jpg" alt="Team Meeting">
+            <div class="photo-caption">Survey Testing Session</div>
+        </div>
+        <div class="photo-item">
+            <img src="images/Survey 2.png" alt="User Testing">
+            <div class="photo-caption">Survey Testing Session</div>
+        </div>
+        <div class="photo-item">
+            <img src="images/Survey 3.png" alt="Data Analysis">
+            <div class="photo-caption">Survey Testing Session</div>
+        </div>
+        <div class="photo-item">
+            <img src="images/Survey 4.jpg" alt="Final Review">
+            <div class="photo-caption">Survey Testing Session</div>
+        </div>
+        <div class="photo-item">
+            <img src="images/Survey 5.jpg" alt="Final Review">
+            <div class="photo-caption">Survey Testing Session</div>
+        </div>
+        <div class="photo-item">
+            <img src="images/Survey 6.png" alt="Final Review">
+            <div class="photo-caption">Survey Testing Results</div>
+        </div>
+    </div>
+</section>
+</main>
+
+    <footer class="footer">
+
+  <div class="footer-top">
+
+    <div class="footer-brand">
+      <h3>CareSync</h3>
+      <p>
+        A mobile healthcare application prototype designed <br>to simplify clinic workflows, appointment booking,<br> and patient queue management.
+      </p>
+    </div>
+
+    <div class="footer-col">
+      <h5>PAGES</h5>
+      <a href="index.html">Home</a>
+      <a href="data.html">Data Gathering</a>
+      <a href="results.html">Results</a>
+      <a href="moreinfo.html">More Info</a>
+    </div>
+
+    <div class="footer-col">
+      <h5>COLLEGE</h5>
+      <p>Partido State University</p>
+      <p>College of Engineering and Computational Sciences</p>
+      <p>A.Y. 2025–2026</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 CareSync Team. All rights reserved.</p>
+    <p>Human Computer Interaction 2 — Final Project</p>
+  </div>
+
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
