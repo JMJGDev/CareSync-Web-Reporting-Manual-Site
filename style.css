@@ -2065,3 +2065,257 @@ h2 {
 .container h2 + .perf-full-card {
     margin-bottom: 10px;
 }
+
+/* Tablets */
+@media (max-width: 992px) {
+
+    .hero,
+    .walk-container,
+    .footer-top,
+    .media-split {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero {
+        padding-top: 120px;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .blue-text {
+        font-size: 4rem;
+    }
+
+    .hero p {
+        max-width: 100%;
+    }
+
+    .hero-btns {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .team-grid,
+    .walk-grid,
+    .phone-grid,
+    .summary-cards,
+    .rec-grid,
+    .methods-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .summary-grid {
+        flex-wrap: wrap;
+    }
+
+    .step-row {
+        flex-wrap: wrap;
+    }
+
+    .step-box {
+        min-width: 45%;
+    }
+
+    .demo-video {
+        height: 350px;
+    }
+
+    .walkthrough-img {
+        height: auto;
+    }
+}
+
+
+/* Mobile Phones */
+@media (max-width: 768px) {
+
+    .navbar {
+        padding: 15px 5%;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-right {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 120px 5% 60px;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+        line-height: 1.3;
+    }
+
+    .blue-text {
+        font-size: 3rem;
+    }
+
+    .floating-img {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .team-grid,
+    .summary-cards,
+    .rec-grid,
+    .methods-grid,
+    .walk-grid,
+    .phone-grid,
+    .media-grid,
+    .summary-grid,
+    .photo-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .summary-row {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-top,
+    .footer-bottom {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .content-container section,
+    .methods-section,
+    .video-section,
+    .ui-showcase,
+    .walkthrough-section {
+        padding: 40px 20px;
+    }
+
+    .page-header {
+        padding: 120px 5% 80px;
+    }
+
+    .page-header h1 {
+        font-size: 2rem;
+    }
+
+    .results-header h1 {
+        font-size: 2.2rem;
+    }
+
+    .card,
+    .summary-card,
+    .rec-card,
+    .finding-card,
+    .method-card {
+        padding: 20px;
+    }
+
+    .finding-card {
+        flex-direction: column;
+    }
+
+    .demo-video {
+        width: 100%;
+        height: 220px;
+    }
+
+    .modal-box {
+        width: 95%;
+        height: 300px;
+    }
+
+    .walkthrough-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .poster-img,
+    .sus-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .team-card img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .step-box {
+        min-width: 100%;
+    }
+
+    .chart-wrap {
+        height: 220px;
+    }
+
+    .improvements-table {
+        font-size: 12px;
+    }
+
+    .improvements-table th,
+    .improvements-table td {
+        padding: 10px;
+    }
+}
+
+
+/* Small Phones */
+@media (max-width: 480px) {
+
+    .hero h1 {
+        font-size: 1.7rem;
+    }
+
+    .blue-text {
+        font-size: 2.3rem;
+    }
+
+    .logo {
+        font-size: 1.2rem;
+    }
+
+    .btn-primary,
+    .btn-outline,
+    .download-btn,
+    .prototype-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .hero-btns {
+        flex-direction: column;
+    }
+
+    .card-inner {
+        padding: 25px;
+    }
+
+    .stat-box {
+        width: 100%;
+        height: auto;
+    }
+
+    .summary-container {
+        padding: 15px;
+    }
+
+    .sus-score-big {
+        font-size: 2rem;
+    }
+
+    .page-header h1,
+    .results-header h1 {
+        font-size: 1.8rem;
+    }
+}
